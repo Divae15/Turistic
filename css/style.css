@@ -1,0 +1,176 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+.first_block{
+  width: 100%;
+  height: 790px;
+  position: relative;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 100%;
+}
+.container{
+  max-width: 1120px;
+  height: 790px;
+  margin: 0 auto;
+}
+.header{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 100px;
+}
+.header .ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: #fff;
+}
+.header .li{
+  margin-right: 20px;
+}
+.header .li:last-of-type{
+  margin-right: 0;
+}
+.header .li:hover{
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+  color: #FFC700;
+  cursor: pointer;
+}
+.header img{
+  width: 100px;
+  height: 40px;
+}
+.first_block_main{
+  display: flex;
+  justify-content: space-between;
+}
+.text_logo{
+  max-width: 720px;
+  position: relative;
+  margin-top:150px;
+}
+.to_us{
+  position: absolute;
+  right: 30px;
+  top: 48px;
+}
+.adven{
+  margin-bottom: 20px;
+}
+.pero_travel{
+  margin-bottom: 60px;
+}
+.button_main{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+  width: 230px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+}
+.button_main:hover{
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+/* Стрелка */
+.button_main_img{
+  margin-left: 10px;
+  animation-name: move;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-timing-function: cubic-bezier(0, 0, 0.47, 0.49);
+  position: relative;
+}
+/* Иконки */
+.logo_block{
+  height: 110px;
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+}
+.logo_block img{
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+.vk{
+  align-self: flex-start;
+  width: 25px;
+  height: 16px;
+}
+.fc{
+  width: 12px;
+  height: 26px;
+  margin-left: 8px;
+}
+
+.scroll{
+  display: flex;
+  position: absolute;
+  bottom:-120px;
+  right: 300px;
+}
+.scroll_img{
+  margin-left: 20px;
+  position: relative;
+}
+.sroll_animation{
+  opacity: 60%;
+  position: absolute;
+  top: 35%;
+  left: 39.5%;
+}
+.sroll_animation:hover{
+  opacity: 100%;
+  cursor: pointer;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+  transform: scale(1.5);
+}
+.sroll_animation_out_line{
+  width: 66px;
+  height: 66px;
+  border-color: #FFC700;
+  border-style: solid;
+  box-shadow: 0px 1px 5px #FFC700;
+  border-radius: 50px;
+  position: relative;
+}
+.sroll_animation_yellow_circle{
+  width: 36px;
+  height: 36px;
+  background-color: #FFC700;
+  border-radius: 50px;
+  position: absolute;
+  top: 22%;
+  left: 22%;
+}
+.scrol_img_polygon{
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 20px solid black;
+  border-bottom: 12px solid transparent;
+  position: absolute;
+  top: 18%;
+  left: 30%;
+}
+
+
+
+
+@keyframes move {
+  0% {left: 0}
+  100% {left: 10px;}
+}
