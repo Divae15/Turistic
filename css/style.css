@@ -114,7 +114,6 @@ body{
   height: 26px;
   margin-left: 8px;
 }
-
 .scroll{
   display: flex;
   position: absolute;
@@ -167,7 +166,149 @@ body{
   left: 30%;
 }
 
+.container_h2{
+  margin: 0 auto;
+  max-width: 1120px;
+}
+.h2 {
+  display:flex;
+  justify-content: space-between;
+  margin-top: 250px;
+}
+.h2 h2{
+  color:#0499DD;
+  font-size:24px;
+  font-weight:700;
+}
+.h2 a{
+  font-size:12px;
+  color:#282828;
+}
 
+.scrol_card_main{
+  display: flex;
+  justify-content: space-between;
+  width:1600px;
+  margin-top:90px;
+}
+.scrol_card{
+  width: 360px;
+  height: 497px;
+  color: white;
+  border-radius: 15px;
+}
+.scrol_card:hover{
+  box-shadow:1px 1px 10px black;
+}
+.scrol_card_content{
+  padding: 210px 16px 16px 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+
+
+}
+.card_1{
+  background-image: url(../img/scrol-card_1.png);
+}
+.card_2{
+  background-image: url(../img/scrol_img_2.png);
+}
+.card_3{
+  background-image: url(../img/scrol_img_3.png);
+}
+.card_4{
+  background-image: url(../img/scrol_img_2.png);
+}
+
+
+
+
+.scrol_card_main{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  margin-top:90px;
+}
+.scrol_card{
+  width: 360px;
+  height: 497px;
+  color: white;
+  border-radius: 15px;
+}
+.scrol_card:hover{
+  box-shadow:1px 1px 10px black;
+}
+.scrol_card_content{
+  padding: 210px 16px 16px 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+
+
+}
+.card_1{
+  background-image: url(../img/scrol-card_1.png);
+}
+.card_2{
+  background-image: url(../img/scrol_img_2.png);
+}
+.card_3{
+  background-image: url(../img/scrol_img_3.png);
+}
+.card_4{
+  background-image: url(../img/scrol_img_2.png);
+}
+
+
+
+
+.scrol_card .type{
+  font-size: 12px;
+}
+.scrol_card_h3{
+  font-size: 14px;
+  color: #FFC700;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.prace_time{
+  display: flex;
+  width: 125px;
+  justify-content: space-between;
+}
+
+.scrol_card_prace_time_span{
+  font-size: 12px;
+}
+.scrol_card_prace_time_span{
+  font-size:12px;
+}
+.discription{
+  font-size: 12px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.button_scrol_card{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+  width: 160px;
+  height: 40px;
+  border-radius: 60px;
+  border: none;
+  margin-bottom: 40px;
+}
+.button_scrol_card:hover{
+  transform: scale(1.01);
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
 
 
 @keyframes move {
