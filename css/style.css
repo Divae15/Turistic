@@ -228,10 +228,6 @@ body{
 .card_4{
   background-image: url(../img/scrol_img_2.png);
 }
-
-
-
-
 .scrol_card .type{
   font-size: 12px;
 }
@@ -276,6 +272,46 @@ body{
   transition-duration: 0.1s;
   cursor: pointer;
 }
+.about_us_block{
+  width:100%;
+  height: 749px;
+  margin-top: 170px;
+}
+.about_us_block_content{
+  position: relative;
+}
+.about_us_block_grey{
+  position: absolute;
+  width: 542px;
+  height: 476px;
+  background-color: #EDEDED;
+  top: 17%;
+  right: 20%;
+}
+.about_us_block_grey_content{
+  padding: 60px 75px 105px 85px;
+}
+.about_us_block_grey_content h2{
+  color:#0499DD;
+  font-size:24px;
+  font-weight:700;
+}
+.about_us_block_grey_content span{
+  font-weight:500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @keyframes move {
