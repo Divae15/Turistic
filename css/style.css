@@ -175,6 +175,9 @@ body{
   justify-content: space-between;
   margin-top: 250px;
 }
+.h2_text{
+  margin-top: 50px;
+}
 .h2 h2{
   color:#0499DD;
   font-size:24px;
@@ -299,7 +302,91 @@ body{
 .about_us_block_grey_content span{
   font-weight:500;
 }
+.benifits_main_block{
+  display: flex;
+  justify-content: center;
+}
+  .benifits_main{
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+  .benifits_row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .benifits_row_el{
+    display: flex;
+    width: 49%;
+    justify-content:space-between;
+  }
+  .benifits_row_el img{
+    width:75px;
+    height:75px;
+  }
+  .benifits_row_el h3{
+    color: #0499DD;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+  }
+  .benifits_row_el span{
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .benifits_row_text{
+    margin-left: 20px;
+  }
+  .discription_benefits{
+    display: block;
+    margin: 0 auto;
+    width:550px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+  }
+  .benifits_button{
+      justify-content: center;
+  }
 
+
+.gallery{
+    display: flex;
+    height: 570px;;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .gallery_1{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .gallery_1_row_2{
+    display: flex;
+    justify-content: space-between;
+  }
+.gallery_1_row_2_col_2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  .gallery_1_row_2_col_2{
+    align-items:flex-end;
+  }
+  .gallery_3{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .gallery_3_row_1{
+    display: flex;
+    justify-content: space-between;
+  }
 
 
 
